@@ -30,6 +30,8 @@ The profile lists Basel, Switzerland, danaepapadopetraki@gmail.com and the Linke
 ## Source and attribution
 Professional information comes from the supplied CV. Tennis project description and the figure are from https://danae1968.github.io/tennis_database/ . The figure links to its original analysis. Tennis project data attribution: TennisMyLife and Jeff Sackmann / Tennis Abstract (CC BY-NC-SA 4.0); see the original project for methods, licences and data sources. Do not interpret this portfolio as independent validation of the research findings.
 
+Nakama (https://github.com/cisakoglou/nakama) is co-developed with Danae; the screenshot `nakama.jpg` is of its landing page. The "Get in touch" button opens an email to the public contact address.
+
 Instrument Serif and DM Sans are distributed under the SIL Open Font License 1.1. Their copyright notices and licenses are included in `fonts/`.
 
 ## Suggested next additions
