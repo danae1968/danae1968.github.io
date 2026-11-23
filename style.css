@@ -131,17 +131,17 @@ h3 { font-size: 20px; line-height: 1.4; font-weight: 500; }
 .visual-top { display: flex; justify-content: space-between; gap: 15px; margin-bottom: 18px; font-size: 11px; letter-spacing: 1px; color: var(--muted); }
 .project-visual > a { display: block; border-radius: 3px; }
 .project-visual img { display: block; width: 100%; height: auto; }
+.project-visual.compact { max-width: 380px; width: 100%; justify-self: center; }
 .project-visual > p { margin: 18px 0 0; font: italic 15px/1.5 var(--serif); color: var(--muted); }
 .project-copy { min-width: 0; }
 .project-copy > .eyebrow { font-size: 11px; letter-spacing: 1px; }
 .project-copy h3 { margin: 0 0 20px; font: 34px/1.2 var(--serif); letter-spacing: -1px; }
-.project-copy h3 span { color: var(--clay); }
 .project-copy > p:not(.eyebrow) { color: var(--muted); font-size: 16px; }
 .project-copy .tags span { border-color: #ccd1c3; }
 .project-caption { margin: 30px 0 0; color: var(--muted); font-size: 14px; }
 .featured-project + .featured-project { margin-top: 40px; padding-top: 40px; border-top: 1px solid #ccd1c3; }
 @media (min-width: 901px) {
-  .featured-project.reverse { grid-template-columns: 1fr 1.18fr; }
+  .featured-project.reverse { grid-template-columns: 1.3fr 1fr; }
   .featured-project.reverse .project-visual { order: 2; }
 }
 .role { border-top: 1px solid var(--line); padding: 24px 0; }
@@ -171,7 +171,6 @@ details[open] .plus { transform: rotate(45deg); }
 .publications .icon { margin-top: 7px; margin-left: 0; color: var(--muted); }
 .connect { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 40px; margin: 0 32px; padding: 60px 48px; background: radial-gradient(ellipse at 15% 10%, #fbf1e8, transparent 70%), linear-gradient(120deg, #efe2e2, #e5d8e2); border: 1px solid #fcf3ed; border-radius: 32px 80px 32px 80px; box-shadow: 0 22px 50px #65445b0c; }
 .connect h2 { font-size: 40px; }
-.connect h2 span { color: var(--clay); }
 .connect > div > p:not(.eyebrow) { color: var(--muted); font-size: 15px; }
 .contact-list { display: flex; flex-direction: column; align-items: flex-start; gap: 16px; font-size: 14px; }
 .contact-list > a { max-width: 100%; text-decoration: none; border-bottom: 1px solid #c5b4be; padding-bottom: 4px; overflow-wrap: anywhere; }
