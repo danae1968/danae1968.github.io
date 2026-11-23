@@ -131,7 +131,7 @@ h3 { font-size: 20px; line-height: 1.4; font-weight: 500; }
 .visual-top { display: flex; justify-content: space-between; gap: 15px; margin-bottom: 18px; font-size: 11px; letter-spacing: 1px; color: var(--muted); }
 .project-visual > a { display: block; border-radius: 3px; }
 .project-visual img { display: block; width: 100%; height: auto; }
-.project-visual.compact { max-width: 380px; width: 100%; justify-self: center; }
+.project-visual.compact { max-width: 260px; padding: 14px; width: 100%; justify-self: center; }
 .project-visual > p { margin: 18px 0 0; font: italic 15px/1.5 var(--serif); color: var(--muted); }
 .project-copy { min-width: 0; }
 .project-copy > .eyebrow { font-size: 11px; letter-spacing: 1px; }
