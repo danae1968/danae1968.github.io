@@ -1,3 +1,4 @@
 *.zip
 # private: contains phone number, never publish
 Papadopetraki_CV_clinical.pdf
+*.docx
